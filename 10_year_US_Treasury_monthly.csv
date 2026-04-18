@@ -1,3 +1,12 @@
+# Install necessary libraries
+pip install -r scripts/requirements.txt
+
+# Update the data
+./scripts/process.sh
+
+# Run the script
+python scripts/bond_us_flow.py
+
 Date,Rate
 1953-04-01,2.83
 1953-05-01,3.05
