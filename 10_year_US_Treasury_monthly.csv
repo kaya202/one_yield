@@ -1,9 +1,7 @@
 # Install necessary libraries
 pip install -r scripts/requirements.txt
-
 # Update the data
 ./scripts/process.sh
-
 # Run the script
 python scripts/bond_us_flow.py
 
